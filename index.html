@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Palla Amulya - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Amulya</h1>
+        <nav>
+            <a href="{{ url_for('index') }}" class="nav-link">Home</a>
+            <a href="{{ url_for('about') }}" class="nav-link">About</a>
+            <a href="{{ url_for('projects') }}" class="nav-link">Projects</a>
+            <a href="{{ url_for('contact') }}" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="{{ url_for('static', filename='assets/profile.jpg') }}" class="profile-pic" alt="Amulya's Profile">
+        <h2 class="title-line">Hi, I'm Palla Amulya</h2>
+        <p class="hero-subtitle">Web Developer & Data Science Enthusiast</p>
+        <div class="hero-buttons">
+            <a href="{{ url_for('projects') }}" class="btn">View Projects</a>
+            <a href="{{ url_for('contact') }}" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About - Palla Amulya</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">Amulya</h1>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('projects') }}">Projects</a>
+            <a href="{{ url_for('contact') }}">Contact</a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a passionate B.Tech student at Stanley College of Engineering and Technology for Women. I have worked on a Smart Agro Advisor hackathon project focused on agricultural tech. My interests lie in Data Science, Web Development, and AI.</p>
+    </section>
+</body>
+</html>

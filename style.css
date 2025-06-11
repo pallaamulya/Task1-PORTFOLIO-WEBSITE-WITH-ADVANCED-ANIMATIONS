@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #d164c0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #200224;
+    padding: 1rem 2rem;
+    color: rgb(125, 190, 231);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(161, 154, 215);
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.hero-buttons .btn {
+    background: #6c5ce7;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+section {
+    padding: 4rem 2rem;
+}
